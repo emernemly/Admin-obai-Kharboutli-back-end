@@ -10,7 +10,7 @@ async function bootstrap() {
 
   // Configure CORS options
   const corsOptions: CorsOptions = {
-    origin: 'http://localhost:3000', // Update this with your frontend URL
+    origin: 'https://admin-obai-kharboutli.vercel.app', // Update this with your frontend URL
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
